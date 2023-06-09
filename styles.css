@@ -104,23 +104,13 @@ border-radius: 15px;
 padding: 10px;
 
 box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
-
-
 }
 
-
-.card__figure{
-
-  
-
-}
 
 .card__figure img{
   max-width: 200px;
   border-radius: 15px;
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
-
-
 }
 
 .title{
@@ -171,4 +161,93 @@ border-radius: 40px;
   text-decoration: underline;
 }
 
+@media (max-width: 952px) {
+
+  h2 {
+    font-size: medium;
+  }  
+
+  main {
+    font-size: medium;
+    width: 100%;
+  }  
+
+  .col-6 {        
+    width: 100%;    
+  }  
+
+  .col-12 {      
+    width: 100%;    
+  } 
+}
+
+@media (max-width: 500px) {
+
+  main {
+    font-size: small;
+    width: 100%;
+  } 
+
+  .contedor-formulario{
+    padding: 4px;
+    border-radius: 20px;
+  } 
+
+  nav {
+    width: 0%;     
+  }  
+  
+  .navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 0%; 
+  }
+
+  .navbar__menu {
+    width: 0%;           
+  }
+
+  .navbar__menu li {
+    display: none;             
+  }
+  
+  form {    
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .col-6 {    
+    flex-direction: row;
+    width: 100%;    
+  }  
+
+  .col-12 {    
+    flex-direction: row;
+    width: 100%;    
+  } 
+
+  .navbar__logo img{
+    margin: rem 0 1rem 0;
+    width: 40px;
+    height: 40px;
+    align-items: center;   
+  }  
+
+  ::placeholder {
+    font-size: xx-small;
+  }
+
+  .form-check-label {
+    font-size: xx-small;
+  }
+
+  .terminosCondiciones {
+    font-size: xx-small;
+  }
+
+  .button-formulario{ 
+    font-size: 10px;
+  }
+
+}
 
